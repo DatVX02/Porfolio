@@ -53,7 +53,7 @@ const Header = () => {
             </div>
 
             {isOpen && (
-                <div className="absolute top-16 left-0 right-0 bg-white shadow-md flex flex-col items-center gap-4 py-6 md:hidden z-10">
+                <div className="absolute top-26 left-0 right-0 bg-white shadow-md flex flex-col items-center gap-4 py-6 md:hidden z-10 ">
                     <button onClick={() => scrollToSection("about")}>About</button>
                     <button onClick={() => scrollToSection("projects")}>Projects</button>
                     <button onClick={() => scrollToSection("experience")}>Experience</button>
