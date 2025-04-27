@@ -10,7 +10,7 @@ const Introduce = () => {
         },
         {
             id: 2,
-            name: "Web Development",
+            name: "Website Developer",
         },
     ];
 
