@@ -35,11 +35,9 @@ const Introduce = () => {
         <div className="flex items-center justify-center bg-gradient-to-br from-blue-50 to-gray-100 px-4">
                 <div className="flex flex-col md:flex-row max-w-6xl w-full gap-8 py-12">
                     <div className="md:w-1/2 flex flex-col justify-center space-y-6 px-4">
-                        <p className="text-sm font-semibold text-gray-500 tracking-widest uppercase">
-                            Welcome to My Profile
-                        </p>
+                       
                         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-                            Hi, I’m VO XUAN DAT <br />
+                            Hi, I’m VO XUAN DAT is 
                             a{" "}
                             <span
                                 className="text-blue-600 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:bg-clip-text hover:text-transparent transition-colors duration-300 animation duration-500"
@@ -73,7 +71,7 @@ const Introduce = () => {
                         <img
                             src={ProfileImage}
                             alt="VO XUAN DAT"
-                            className="w-64 h-64 md:w-96 md:h-96 rounded-full object-cover"
+                            className="w-full h-full md:w-96 md:h-96 rounded-full object-cover ml-30"
                         />
                     </div>
                 </div>
