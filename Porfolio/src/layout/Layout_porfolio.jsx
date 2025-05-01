@@ -11,8 +11,8 @@ const LayoutPortfolio = () => {
             <Header />
             <Introduce/>
             <Skill/>
-            {/* <Educate/> */}
-            {/* <Experience/> */}
+            <Educate/>
+            <Experience/>
         </>
     )
 
