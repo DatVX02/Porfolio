@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { GithubOutlined } from "@ant-design/icons";
 import ProfileImage from "../../assets/avatar.jpg";
+import { LucideSchool2 } from "lucide-react";
 
 const Introduce = () => {
     const data = [
@@ -45,7 +46,24 @@ const Introduce = () => {
                         >
                             {currentItem.name}
                         </span>
+
                     </h1>
+
+                    <p className="bg-black-200 text-gray-600 p-4 rounded-md shadow-md ">
+                        <div >
+                            <p className="text-2xl font-bold text-blue-500">FPT University</p>
+                            
+                        </div>
+                        <div >
+                            <p className=""><b>Major: {" "}</b>Software Engineer</p>
+
+                        </div>
+                        
+
+                    </p>
+
+
+
 
                     <div className="flex gap-4 mt-4">
                         <a

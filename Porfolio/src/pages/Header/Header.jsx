@@ -35,6 +35,9 @@ const Header = () => {
                         <button onClick={() => scrollToSection("projects")} className="cursor-pointer">Projects</button>
                     </li>
                     <li>
+                        <button onClick={() => scrollToSection("education")} className="cursor-pointer">Education</button>
+                    </li>
+                    <li>
                         <button onClick={() => scrollToSection("experience")} className="cursor-pointer">Experience</button>
                     </li>
                     <li>
