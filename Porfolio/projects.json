@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Porfolio",
+    "Link_github": "https://github.com/DatVX02/project-freelancer.git",
+    "Description": "Develop UI for portfolio website.",
+    "Postion": "Front-end Developer",
+    "Technology": "HTML",
+    "Image": "",
+    "Type": "Freelancer"
+  },
+  {
+    "id": 2,
+    "name": "Resell Event Ticket",
+    "Link_github": "https://github.com/DatVX02/SWD392.git",
+    "Description": "Develop UI for website about buying, selling, exchanging event tickets.",
+    "Postion": "Front-end Developer",
+    "Technology": "Reactjs",
+    "Image": "",
+    "Type": "Classroom project"
+  },
+  {
+    "id": 3,
+    "name": "Human_Multi_tracking",
+    "Link_github": "https://github.com/DatVX02/SWD392.git",
+    "Description": "Develop UI for portfolio website.",
+    "Postion": "Front-end Developers and Software Testing",
+    "Technology": "Reactjs",
+    "Image": "../assets/Human.png",
+    "Type": "Graduation project"
+  },
+  {
+    "id": 4,
+    "name": "Second-hand Sports Equipment Trading System",
+    "Link_github": "",
+    "Description": "",
+    "Postion": "Software testing support",
+    "Technology": "Manual Testing",
+    "Image": "../assets/2Sport.png",
+    "Type": "Graduation project"
+  },
+  {
+    "id": 5,
+    "name": "Skincare Booking System",
+    "Link_github": "https://swp-391-skincare-booking-system.vercel.app",
+    "Description": "",
+    "Postion": "Support Frontend and Backend Developers",
+    "Technology": "Nodejs",
+    "Image": "../assets/Skincare.png"
+  }
+]
