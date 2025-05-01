@@ -71,7 +71,7 @@ const Introduce = () => {
                     <img
                         src={ProfileImage}
                         alt="VO XUAN DAT"
-                        className="w-96 h-96 md:w-96 md:h-96 sm:ml-40 rounded-full object-cover mr-[10px]"
+                        className="w-96 h-96 md:w-96 md:h-96 sm:ml-40 rounded-full object-cover mr-[10px] ml-[12px]"
                     />
                 </div>
             </div>
