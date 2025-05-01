@@ -19,7 +19,7 @@ const Frameworks = () => {
 
 
             <div>
-                <img src={Logo_programing} alt="Framework" onClick={showModal} className="cursor-pointer transform hover:scale-110 active:scale-95 hover:animate-spin" />
+                <img src={Logo_programing} alt="Framework" onClick={showModal} className="w-96 h-90 md:w-50 md:h-50 md:rounded-full md:object-cover cursor-pointer transform hover:scale-110 active:scale-95 hover:animate-spin" />
             </div>
             <Modal title="Frameworks" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
                 <div className="flex">

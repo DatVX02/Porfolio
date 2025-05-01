@@ -23,7 +23,7 @@ const Database = () => {
                     src={Logo_Database}
                     alt="Database"
                     onClick={showModal}
-                    className="cursor-pointer transform hover:scale-110 active:scale-95 hover:animate-spin"
+                    className="w-96 h-60 md:w-50 md:h-50 md:rounded-full md:object-cover cursor-pointer transform hover:scale-110 active:scale-95 hover:animate-spin"
                 />
             </div>
             <Modal title="Database" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>

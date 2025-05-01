@@ -17,7 +17,7 @@ const Design_Diagram = () => {
     return (
         <div >
             <div>
-                <img src={Logo_Design} alt="Design" onClick={showModal} className="cursor-pointer transform hover:scale-110 active:scale-95 hover:animate-spin" />
+                <img src={Logo_Design} alt="Design" onClick={showModal} className="w-96 h-60 md:w-50 md:h-50 md:rounded-full md:object-cover cursor-pointer transform hover:scale-110 active:scale-95 hover:animate-spin" />
             </div>
             <Modal title="Design" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
                 <div className="flex">
