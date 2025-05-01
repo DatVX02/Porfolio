@@ -23,9 +23,13 @@ const Frameworks = () => {
             </div>
             <Modal title="Frameworks" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
                 <div className="flex">
-                    <ul>
-                        <li>Reactjs</li>
-                        <Progress percent={70} type="circle" style={{ width: "50%" }} />
+                    <ul className="w-1/2">
+                        <li className="text-center font-bold text-xl">Reactjs</li>
+                        <Progress percent={70} type="circle"
+                            strokeColor="#facc15"
+                            trailColor="#e5e7eb"
+                            width={140}
+                            style={{ marginLeft: "50px", marginTop: "20px" }} />
                     </ul>
 
 

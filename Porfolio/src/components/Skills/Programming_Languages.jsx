@@ -15,33 +15,34 @@ const Programming_Languages = () => {
         setIsModalOpen(false);
     }
     return (
-        <div >
+        <div>
             <div>
                 <img src={Logo_programing} alt="Programming Languages" onClick={showModal} className="w-96 h-60 md:w-50 md:h-50 md:rounded-full md:object-cover cursor-pointer transform hover:scale-110 active:scale-95 hover:animate-spin" />
             </div>
-            <Modal title="Programming Languages" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-                <div className="flex">
-                    <ul>
-                        <li>JavaScript</li>
+            <Modal title="Programming Languages" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} >
+                <div className="flex ">
+                    <ul className="w-1/2">
+                        <li className="text-center font-bold text-xl">JavaScript</li>
                         <Progress
                             percent={75}
                             type="circle"
                             strokeColor="#facc15"
                             trailColor="#e5e7eb"
-                            width={80}
-                            className="group-hover:scale-110 group-hover:drop-shadow-lg transition-transform duration-300"
+                            width={140}
+                            style={{ marginLeft: "50px", marginTop: "20px" }}
                         />
                     </ul>
 
-                    <ul>
-                        <li>Tailwind CSS</li>
+                    <ul className="w-1/2">
+                        <li className="text-center font-bold text-xl">Tailwind CSS</li>
                         <Progress
                             percent={80}
                             type="circle"
                             strokeColor="#38bdf8"
                             trailColor="#e5e7eb"
                             width={140}
-                            className="group-hover:scale-110 group-hover:drop-shadow-lg transition-transform duration-300"
+                            style={{ marginLeft: "50px", marginTop: "20px" }}
+                            
                         />
                     </ul>
 

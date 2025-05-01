@@ -32,7 +32,7 @@ const Introduce = () => {
     const currentItem = data.find((item) => item.id === currentItemId) || data[0];
 
     return (
-        <div className="flex items-center justify-center bg-gradient-to-br from-blue-50 to-gray-100 px-4">
+        <div className="flex items-center justify-center bg-gradient-to-br from-blue-50 to-gray-100 px-4 mt-26" id="about">
             <div className="flex flex-col md:flex-row max-w-6xl w-full gap-8 py-12">
                 <div className="md:w-1/2 flex flex-col justify-center space-y-6 px-4">
 

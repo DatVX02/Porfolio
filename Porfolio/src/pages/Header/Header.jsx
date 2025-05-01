@@ -19,7 +19,7 @@ const Header = () => {
     };
 
     return (
-        <div className="flex items-center justify-between px-6 py-4 shadow-md">
+        <div className="flex items-center justify-between px-6 py-4 shadow-md fixed top-0 bg-white w-full z-10">
             <div>
                 <Link to="/">
                     <img src={Logo} alt="Logo" className="w-18 h-18 rounded-full" />
@@ -28,20 +28,20 @@ const Header = () => {
 
             <div className="hidden md:flex gap-8 items-center font-medium">
                 <ul className="flex gap-10 items-center font-medium mr-10">
-                    <li>
-                        <button onClick={() => scrollToSection("about")}>About me</button>
+                    <li >
+                        <button onClick={() => scrollToSection("about")} className="cursor-pointer">About me</button>
                     </li>
                     <li>
-                        <button onClick={() => scrollToSection("projects")}>Projects</button>
+                        <button onClick={() => scrollToSection("projects")} className="cursor-pointer">Projects</button>
                     </li>
                     <li>
-                        <button onClick={() => scrollToSection("experience")}>Experience</button>
+                        <button onClick={() => scrollToSection("experience")} className="cursor-pointer">Experience</button>
                     </li>
                     <li>
-                        <button onClick={() => scrollToSection("skills")}>Skills</button>
+                        <button onClick={() => scrollToSection("skills")} className="cursor-pointer">Skills</button>
                     </li>
                     <li>
-                        <button onClick={() => scrollToSection("contact")}>Contact</button>
+                        <button onClick={() => scrollToSection("contact")} className="cursor-pointer">Contact</button>
                     </li>
                 </ul>
             </div>

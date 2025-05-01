@@ -26,15 +26,24 @@ const Database = () => {
                     className="w-96 h-60 md:w-50 md:h-50 md:rounded-full md:object-cover cursor-pointer transform hover:scale-110 active:scale-95 hover:animate-spin"
                 />
             </div>
-            <Modal title="Database" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+            <Modal title="Database" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} >
                 <div className="flex">
-                    <ul>
-                        <li>MongoDB</li>
-                        <Progress percent={70} type="circle" style={{ width: "50%" }} />
+                    <ul className="w-1/3 ml-10">
+                        <li className="text-center font-bold text-xl ">MongoDB</li>
+                        <Progress percent={70}
+                            type="circle"
+                            strokeColor="#facc15"
+                            trailColor="#e5e7eb"
+                            width={140}
+                            style={{ marginTop: "52px" }} />
                     </ul>
-                    <ul>
-                        <li>Microsoft SQL Server Management </li>
-                        <Progress percent={75} type="circle" style={{ width: "50%" }} />
+                    <ul className="w-3/4">
+                        <li className="text-center font-bold  text-xl">Microsoft SQL Server Management </li>
+                        <Progress percent={75} type="circle"
+                            strokeColor="#facc15"
+                            trailColor="#e5e7eb"
+                            width={140}
+                            style={{ marginLeft: "80px", marginTop: "20px" }} />
                     </ul>
 
 
