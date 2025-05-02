@@ -11,7 +11,7 @@ const Introduce = () => {
         },
         {
             id: 2,
-            name: "Website Developer",
+            name: "Front-end Developer",
         },
     ];
 
@@ -35,7 +35,7 @@ const Introduce = () => {
     return (
         <div className="flex items-center justify-center bg-gradient-to-br from-blue-50 to-gray-100 px-4 mt-26" id="about">
             <div className="flex flex-col md:flex-row max-w-6xl w-full gap-8 py-12">
-                <div className="md:w-1/2 flex flex-col justify-center space-y-6 px-4">
+                <div className="md:w-1/2 flex flex-col justify-center space-y-6 ">
 
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
                         Hi, I’m VO XUAN DAT is
@@ -49,7 +49,7 @@ const Introduce = () => {
 
                     </h1>
 
-                    <p className="bg-black-200 text-gray-600 p-4 rounded-md shadow-md ">
+                    {/* <p className="bg-black-200 text-gray-600 p-4 rounded-md shadow-md ">
                         <div >
                             <p className="text-2xl font-bold text-blue-500">FPT University</p>
                             
@@ -60,7 +60,7 @@ const Introduce = () => {
                         </div>
                         
 
-                    </p>
+                    </p> */}
 
 
 
@@ -80,7 +80,7 @@ const Introduce = () => {
                             rel="noopener noreferrer"
                             className="flex items-center justify-center w-32 h-14 bg-blue-500 shadow-lg shadow-blue-500/50 text-white rounded-md hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 transition-all duration-300 text-sm font-medium"
                         >
-                            Portfolio
+                            Download CV
                         </a>
                     </div>
                 </div>

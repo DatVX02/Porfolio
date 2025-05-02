@@ -16,7 +16,9 @@ const Educate = () => {
 
                 <div className="flex flex-col md:flex-row justify-center items-center gap-10">
                     <img src={logo_fptu} alt="FPT" className="w-[50%]" />
+                    
                 </div>
+                
             </div>
 
             <div className="w-1/2">
