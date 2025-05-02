@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Reactjs",
+    "type": "Frontend",
+    "image":"./assets/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png"
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "type": "Frontend"
+  },
+  {
+    "id": 3,
+    "name": "Tailwind CSS",
+    "type": "Frontend"
+  },
+  {
+    "id": 4,
+    "name": "Figma",
+    "type": "Design"
+  },
+  {
+    "id": 5,
+    "name": "MongoDB",
+    "type": "Database"
+  },
+  {
+    "id": 6,
+    "name": "Microsoft SQL Server Management",
+    "type": "Database"
+  },
+  {
+    "id": 7,
+    "name": "Postman",
+    "type": "API Testing tool"
+  },
+  {
+    "id": 8,
+    "name": "Visual Diagram",
+    "type": "Diagram"
+  },
+  {
+    "id": 9,
+    "name": "StarUML",
+    "type": "Diagram"
+  },
+  {
+    "id": 10,
+    "name": "DrawIO",
+    "type": "Diagram"
+  }
+]
