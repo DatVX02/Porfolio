@@ -31,7 +31,7 @@ const Skill = () => {
             name: "Tailwindcss",
             type: "Frontend",
             image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png",
         },
         {
             id: 4,
@@ -44,13 +44,13 @@ const Skill = () => {
             name: "MongoDB",
             type: "Database",
             image:
-                "https://wiki.matbao.net/wp-content/uploads/2022/11/mongodb-la-gi-1200x900.png",
+                "https://static-00.iconduck.com/assets.00/mongodb-icon-icon-512x337-sbep0qp1.png",
         },
         {
             id: 6,
-            name: "Microsoft SQL Server Management",
+            name: "SQL Server Management",
             type: "Database",
-            image: "https://vina-aspire.com/wp-content/uploads/2024/01/mssql.jpg",
+            image: "https://i.pinimg.com/736x/32/a0/3a/32a03aee0c76419ec5bde950a62883bc.jpg",
         },
         {
             id: 7,
@@ -69,7 +69,7 @@ const Skill = () => {
             id: 9,
             name: "StarUML",
             type: "Diagram",
-            image: "https://staruml.io/images/default-background.png",
+            image: "https://avatars.githubusercontent.com/u/7642181?s=280&v=4",
         },
         {
             id: 10,
@@ -83,7 +83,7 @@ const Skill = () => {
             name: "Nodejs",
             type: "Backend",
             image:
-                "https://www.smartsight.in/wp-content/uploads/2021/09/NodeJS.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Jqy_joxyuPEsHWadt48KNQE0WcRK4j40RQ&s",
         }
     ];
 

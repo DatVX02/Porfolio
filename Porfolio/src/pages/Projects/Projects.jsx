@@ -64,7 +64,7 @@ const Projects = () => {
                                     <img
                                         src={project.Image}
                                         alt={project.name}
-                                        className="w-200 h-100 p-2 duration-300 group-hover:blur-sm"
+                                        className="w-200 h-80 duration-300 group-hover:blur-sm"
                                         onError={(e) => {
                                             e.target.src = "https://via.placeholder.com/400x200?text=No+Image";
                                         }}
