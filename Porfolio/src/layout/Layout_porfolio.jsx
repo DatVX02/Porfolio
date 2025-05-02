@@ -5,6 +5,7 @@ import Skill from "../pages/Skill/Skill";
 // import Experience from "../pages/Experience/Experience";
 import Educate from "../pages/Educate/Educate";
 import Projects from "../pages/Projects/Projects";
+import Footer from "../pages/Footer/Footer";
 
 const LayoutPortfolio = () => {
     return (
@@ -13,8 +14,8 @@ const LayoutPortfolio = () => {
             <Introduce />
             <Skill />
             <Educate />
-            <Projects/>
-
+            <Projects />
+            <Footer/>
 
         </>
     )
