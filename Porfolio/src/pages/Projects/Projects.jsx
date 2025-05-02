@@ -18,7 +18,7 @@ const projectsData = [
         Description: "Develop UI for portfolio website.",
         Postion: "Front-end Developers and Software Testing",
         Technology: "Reactjs",
-        Image: "https://raw.githubusercontent.com/HanShinVN/chu_he_nhung_nguoi_ban/refs/heads/main/Human_Multi_Tracking/Human_Multi_tracking/src/assets/logo.png?token=GHSAT0AAAAAADB4YNXIKJ2FJ7PFPQKCP5GY2AUU7OA",
+        Image: "https://media.discordapp.net/attachments/1225984317671346287/1321101745945968692/logo.png?ex=681614e1&is=6814c361&hm=42c0d4279fe9997168ff8a1196829da6528b0c91d8db231053ab81b653ac4bb5&=&format=webp&quality=lossless&width=922&height=922",
         Type: "Graduation project"
     },
     {
@@ -52,8 +52,8 @@ const Projects = () => {
                 </h1>
             </div>
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+            <div className=" mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
                     {projectsData.map((project) => (
                         <div
                             key={project.id}
@@ -64,7 +64,7 @@ const Projects = () => {
                                     <img
                                         src={project.Image}
                                         alt={project.name}
-                                        className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
+                                        className="w-200 h-100 p-2 duration-300 group-hover:blur-sm"
                                         onError={(e) => {
                                             e.target.src = "https://via.placeholder.com/400x200?text=No+Image";
                                         }}
@@ -74,7 +74,7 @@ const Projects = () => {
                                         <span className="text-gray-500 text-sm">No Image Available</span>
                                     </div>
                                 )}
-                                <div className="absolute inset-0 bg-white bg-opacity-0 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-62 transition-opacity duration-300">
+                                <div className="absolute inset-0 bg-white bg-opacity-0 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-70 transition-opacity duration-300">
                                     <h3 className="text-xl font-semibold text-black mb-2">{project.name}</h3>
                                     <div className="space-y-2">
                                         <p className="text-black text-sm">
