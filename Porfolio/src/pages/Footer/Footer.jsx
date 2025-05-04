@@ -20,6 +20,12 @@ const Footer = () => {
                                 <img src="https://images.vexels.com/media/users/3/205069/isolated/preview/f207045d96c258fed664305f0ac2c5bd-telephone-handset-blue-icon.png?w=360" alt="phone" className="w-12 h-12" />
                         </a>
                         </div>
+
+                        <div className="">
+                            <a href="https://www.facebook.com/voxuandat132" type="_blank" className="">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" alt="phone" className="w-12 h-12" />
+                            </a>
+                        </div>
                     </div>
                 </div>
 

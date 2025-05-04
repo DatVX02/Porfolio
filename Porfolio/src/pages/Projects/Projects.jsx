@@ -18,7 +18,7 @@ const projectsData = [
         Description: "Develop UI for portfolio website.",
         Postion: "Front-end Developers and Software Testing",
         Technology: "Reactjs",
-        Image: "https://media.discordapp.net/attachments/1225984317671346287/1321101745945968692/logo.png?ex=681614e1&is=6814c361&hm=42c0d4279fe9997168ff8a1196829da6528b0c91d8db231053ab81b653ac4bb5&=&format=webp&quality=lossless&width=922&height=922",
+        Image: "https://media.discordapp.net/attachments/1225984317671346287/1321101745945968692/logo.png?ex=68180f21&is=6816bda1&hm=968532707b89039042035bf0e99e54cb478ce687055f20be7e19a35197a027c6&=&format=webp&quality=lossless&width=922&height=922",
         Type: "Graduation project"
     },
     {
@@ -64,7 +64,7 @@ const Projects = () => {
                                     <img
                                         src={project.Image}
                                         alt={project.name}
-                                        className="w-200 h-80 duration-300 group-hover:blur-sm"
+                                        className="w-200 h-80 duration-300 group-hover:blur-sm md:w-200 md:h-100"
                                         onError={(e) => {
                                             e.target.src = "https://via.placeholder.com/400x200?text=No+Image";
                                         }}
