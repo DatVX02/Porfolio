@@ -75,7 +75,7 @@ const Introduce = () => {
                             <GithubOutlined className="text-xl" />
                         </a>
                         <a
-                            href="https://drive.google.com/file/d/1TxRYGtRpddwx4rLoSzHTJe0N7sEdWUos/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1cTOE-sjgeNFRp1GVUo6qFmVnArXvxqMA/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center justify-center w-32 h-14 bg-blue-500 shadow-lg shadow-blue-500/50 text-white rounded-md hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 transition-all duration-300 text-sm font-medium"
