@@ -1,7 +1,7 @@
 import React from "react";
 import logo_fptu from "../../assets/2021-FPTU-Eng.png";
 import logo_amazing from "../../assets/logo-color.png";
-import logo_nina from "../../assets/nina.webp";
+// import logo_nina from "../../assets/nina.webp";
 const Educate = () => {
 
     return (
@@ -32,7 +32,7 @@ const Educate = () => {
 
                 <div>
 
-                    <div className="group relative bg-gradient-to-br from-white via-white to-gray-50 border border-gray-200 rounded-2xl p-6 shadow-lg hover:shadow-xl transition duration-300 w-[80%] ml-24">
+                    {/* <div className="group relative bg-gradient-to-br from-white via-white to-gray-50 border border-gray-200 rounded-2xl p-6 shadow-lg hover:shadow-xl transition duration-300 w-[80%] ml-24">
                         <div className="flex items-center space-x-4">
                             <img
                                 src={logo_nina}
@@ -45,7 +45,7 @@ const Educate = () => {
                             </div>
                         </div>
 
-                    </div>
+                    </div> */}
 
 
                     <div className="group relative bg-gradient-to-br from-white via-white to-gray-50 border border-gray-200 rounded-2xl p-6 shadow-lg hover:shadow-xl transition duration-30 w-[80%] mt-4 ml-24">

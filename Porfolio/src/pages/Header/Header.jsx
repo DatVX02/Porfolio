@@ -19,14 +19,14 @@ const Header = () => {
     };
 
     return (
-        <div className="flex items-center justify-between px-6 py-4 shadow-md fixed top-0 bg-white w-full z-10">
-            <div>
+        <div className="flex items-center justify-center px-6 py-4 shadow-md fixed top-0 bg-white w-full z-10">
+            {/* <div>
                 <Link to="/">
                     <img src={Logo} alt="Logo" className="w-18 h-18 rounded-full" />
                 </Link>
-            </div>
+            </div> */}
 
-            <div className="hidden md:flex gap-8 items-center font-medium">
+            <div className="hidden md:flex gap-8 justify-center items-center font-medium md:h-10">
                 <ul className="flex gap-10 items-center font-medium mr-10">
                     <li >
                         <button onClick={() => scrollToSection("about")} className="cursor-pointer">About me</button>
